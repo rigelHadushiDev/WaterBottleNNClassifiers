@@ -52,7 +52,8 @@ Additionally, a comprehensive project report in Word document format is provided
 
 The first two diagrams are about the convolutional and dense layers. Here the validation accuracy has reached a value of 99.15% , reaching the expected results. Overfitting has been prevented and the model works perfectly. Both accuracies of the training and validation have reached peak performance. For the second graph we can see that the validation loss is dropping slower than the training loss but the overfitting is not that high that can prevent the accuracy of the whole model.
 
-![Convolutional and Dense Layers Model Diagrams ](https://github.com/[rigelHadushiDev]/[WaterBottleNNClassifiers]/[main]/Conv&DenseModelDiagram.png?raw=true)
+![Convolutional and Dense Layers Model Diagrams](https://github.com/rigelHadushiDev/WaterBottleNNClassifiers/raw/main/documentation/Conv%26DenseModelDiagram.png)
+
 
 - Only Dense Layers Model
 
@@ -60,14 +61,14 @@ The diagrams showed below are from the only dense layers model. It is clearly sh
 
 In the second diagram  which is about the training and validation loss, if the training loss decreases while the validation loss plateaus or decreases at a slower rate, it suggests the model may be overfitting. The two different lines below at the second graph at some of its part show exactly this, which can be later translated into an increase of the overfitting and a decrease on the total accuracy of the model.
 
-![Only Dense Layers Model Diagrams ](https://github.com/[rigelHadushiDev]/[WaterBottleNNClassifiers]/[main]/onlyDenseLayerModelDiagram.png?raw=true)
-
+![Only Dense Layers Model Diagrams ](https://github.com/rigelHadushiDev/WaterBottleNNClassifiers/raw/main/documentation/onlyDenseLayerModelDiagram.png)
 
 - Pre-trained Neural Network Model
 
 The last two diagrams I  have are for the final model which is the pre-trained neural network. The first graph shows that the overfitting problem has been resolved perfectly and both accuracies of the training data and validation data are really high. In the end the accuracy of the model is really high and also has reached the expected result. About the second graph we can see that the validation loss has completely dropped with a speed almost the same as the training loss. So both of the graphs show us a good example that the overfitting issue has been resolved perfectly and the model has reached peak accuracy once again.
 
-![Pre-trained Neural Network Model Diagrams ](https://github.com/[rigelHadushiDev]/[WaterBottleNNClassifiers]/[main]/Pre-trainedModelDiagram.png?raw=true)
+![Pre-trained Neural Network Model Diagrams ](https://github.com/rigelHadushiDev/WaterBottleNNClassifiers/raw/main/documentation/Pre-trainedModelDiagram.png)
+
 ## Author
 
 - [@rigelHadushiDev](https://www.github.com/rigelHadushiDev)
