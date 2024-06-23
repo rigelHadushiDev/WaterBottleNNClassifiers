@@ -26,19 +26,6 @@ Modules used were:
 - Pickle 4.0
 - Matplotlib 3.8.0
 
-## Environment and Development 
-
-The environment where we built our classifiers was Jupyter Notebook powered by Anaconda 24.1.2  running with python version 3.11.7 . 
-
-Modules used were:
-
-- TensorFlow 2.16.1
-- Keras 3.3.3
-- NumPy 1.26.4
-- CV2 4.10.0
-- Pickle 4.0
-- Matplotlib 3.8.0
-
 ## Documentation
 
 In this repository, you will find three Jupyter notebooks containing my Data Science project. Each notebook includes comment lines that explain the purpose and details of the code implementation.
