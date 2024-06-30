@@ -1,23 +1,26 @@
 
 # WaterBottleNNClassifiers
 
-The aim of this project was to build three different types of neural network classifiers, which will help classify the most popular water bottle brands in Albania. The classifiers models I focused consist of:
+In this project, we aimed to build three different types of neural network classifiers that reach a high accuracy level. The types of classifier architectures consist of:
 
--	Only Dense layers.
--	Convolutional and Dense layers.
--	Pre-trained neural network.
+- Only dense layers.
+- Convolutional and dense layers.
+- Pre-trained neural network.
 
-These models were trained by the custom dataset that I made , which consist of three diferent sizes as 0.5l, 1.5l and 2l of a total number of 324 photos and three different categories called: 
+The first step that we had to go through was building a dataset of our own to classify the images inside. The dataset contains different photos of water brands in three categories:
 
--	Qafshtama
--	Lajthiza
--	Tepelena
+1)  Qafshtama
+2)  Lajthiza
+3)  Tepelena
 
-## Environment and Development 
+Our dataset consists of a total number of 324 photos. Each water bottle brand consists of three different water bottle sizes varying from 0.5 l, 1.5 l, and 2 l.
+After the dataset was done, we were ready to build our three classifiers. The environment where we built our classifiers was Jupyter Notebook, powered by Anaconda.
 
-The environment where we built our classifiers was Jupyter Notebook powered by Anaconda 24.1.2  running with python version 3.11.7 . 
+# Environment and Development 
 
-Modules used were:
+The environment where we built our classifiers was Jupyter Notebook, powered by Anaconda 24.1.2 running with Python version 3.11.7.
+
+The modules used were:
 
 - TensorFlow 2.16.1
 - Keras 3.3.3
@@ -26,37 +29,38 @@ Modules used were:
 - Pickle 4.0
 - Matplotlib 3.8.0
 
-## Documentation
+# Documentation
 
 In this repository, you will find three Jupyter notebooks containing my Data Science project. Each notebook includes comment lines that explain the purpose and details of the code implementation.
 
 Additionally, a comprehensive project report in Word document format is provided. This report documents the entire development process of the Data Science project, detailing its inception, methodology, and outcomes.
 
 
-## Models Performance
-
-- Convolutional and Dense Layers Model
-
-The first two diagrams are about the convolutional and dense layers. Here the validation accuracy has reached a value of 99.15% , reaching the expected results. Overfitting has been prevented and the model works perfectly. Both accuracies of the training and validation have reached peak performance. For the second graph we can see that the validation loss is dropping slower than the training loss but the overfitting is not that high that can prevent the accuracy of the whole model.
-
-![Convolutional and Dense Layers Model Diagrams](https://github.com/rigelHadushiDev/WaterBottleNNClassifiers/raw/main/documentation/Conv%26DenseModelDiagram.png)
-
+# Models Performance
 
 - Only Dense Layers Model
 
-The diagrams showed below are from the only dense layers model. It is clearly shown that the accuracy of the training data is way higher that the accuracy of the validation data. This is the reason why the accuracy of this model unfortunately was a bit lower than the expected accuracy. 
+The first diagrams are from the only dense layers. It is clearly shown that the accuracy of the training data is way higher than the accuracy of the validation data. This is the reason why the accuracy of this model, unfortunately, was a bit lower than the expected accuracy.
 
-In the second diagram  which is about the training and validation loss, if the training loss decreases while the validation loss plateaus or decreases at a slower rate, it suggests the model may be overfitting. The two different lines below at the second graph at some of its part show exactly this, which can be later translated into an increase of the overfitting and a decrease on the total accuracy of the model.
+In the second diagram, which is about the training and validation loss, if the training loss decreases while the validation loss plateaus or decreases at a slower rate, it suggests the model may be overfitting. The two different lines below in the second graph at some of its parts show exactly this, which can be later translated into an increase in the overfitting and a decrease in the total accuracy of the model.
 
 ![Only Dense Layers Model Diagrams ](https://github.com/rigelHadushiDev/WaterBottleNNClassifiers/raw/main/documentation/onlyDenseLayerModelDiagram.png)
 
+- Convolutional and Dense Layers Model
+
+The third and fourth diagrams depict the performance of models combining convolutional and dense layers, showcasing significant improvements and achieving expected results without overfitting concerns. Both training and validation accuracies demonstrate peak performance, indicating robust generalization across datasets. In the accompanying graph, while the training loss steadily decreases, the validation loss exhibits a slower decline, suggesting a modest disparity in performance between seen and unseen data. However, this gap does not undermine the overall accuracy of the model. By leveraging convolutional layers, the model effectively extracts spatial features crucial for tasks like image recognition, thereby mitigating overfitting and ensuring consistent high performance across diverse datasets.
+
+![Convolutional and Dense Layers Model Diagrams](https://github.com/rigelHadushiDev/WaterBottleNNClassifiers/raw/main/documentation/Conv%26DenseModelDiagram.png)
+
 - Pre-trained Neural Network Model
 
-The last two diagrams I  have are for the final model which is the pre-trained neural network. The first graph shows that the overfitting problem has been resolved perfectly and both accuracies of the training data and validation data are really high. In the end the accuracy of the model is really high and also has reached the expected result. About the second graph we can see that the validation loss has completely dropped with a speed almost the same as the training loss. So both of the graphs show us a good example that the overfitting issue has been resolved perfectly and the model has reached peak accuracy once again.
+The last set of diagrams illustrates the performance of our final model, utilizing a pre-trained neural network. The first graph demonstrates the successful resolution of overfitting, showcasing high accuracies for both training and validation datasets. This achievement underscores the model's robustness in generalizing well to unseen data, culminating in a high overall accuracy that meets or exceeds expectations. In the second graph, the validation loss exhibits a decline rate comparable to that of the training loss, indicating effective training without significant overfitting. These observations collectively highlight the model's optimal performance, where the integration of a pre-trained neural network enhances feature extraction capabilities, mitigates overfitting risks, and ensures consistently high accuracy across diverse datasets.
 
 ![Pre-trained Neural Network Model Diagrams ](https://github.com/rigelHadushiDev/WaterBottleNNClassifiers/raw/main/documentation/Pre-trainedModelDiagram.png)
 
-## Author
+# Author
 
 - [@rigelHadushiDev](https://www.github.com/rigelHadushiDev)
+- [@KlajdiBajo](https://github.com/KlajdiBajo)
+
 
