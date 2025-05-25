@@ -35,7 +35,7 @@ In this repository, you will find three Jupyter notebooks containing my Data Sci
 
 Additionally, a comprehensive project report in Word document format is provided below. This report documents the entire development process of the Data Science project, detailing its inception, methodology, and outcomes.
 
-📄 [Download Data Science Report](documentation/dataScienceReport.docx)
+📄 [Download Data Science Report](https://github.com/rigelHadushiDev/WaterBottleNNClassifiers/raw/main/documentation/dataScienceReport.docx)
 
 # Models Performance
 
