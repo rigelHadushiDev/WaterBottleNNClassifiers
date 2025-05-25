@@ -33,8 +33,9 @@ The modules used were:
 
 In this repository, you will find three Jupyter notebooks containing my Data Science project. Each notebook includes comment lines that explain the purpose and details of the code implementation.
 
-Additionally, a comprehensive project report in Word document format is provided. This report documents the entire development process of the Data Science project, detailing its inception, methodology, and outcomes.
+Additionally, a comprehensive project report in Word document format is provided below. This report documents the entire development process of the Data Science project, detailing its inception, methodology, and outcomes.
 
+📄 [Download Data Science Report](documentation/dataScienceReport.docx)
 
 # Models Performance
 
